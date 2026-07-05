@@ -45,3 +45,7 @@ makensis DacTime_setup.nsi
 ## Licence
 
 MIT — voir [LICENSE](LICENSE)
+
+---
+
+Si ce projet te sert, un cafe est le bienvenu — bouton Sponsor en haut a droite.
