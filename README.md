@@ -1,36 +1,36 @@
 # DacTime
 
-Application Windows de redaction et d'impression de courriers postaux.
+Outil personnel pour rediger et imprimer des courriers postaux sous Windows.
 
-Developpee en Python/Tkinter par Clement LATTAR.
+Developpe parce que Word est trop lourd et le Bloc-notes pas assez. Peut servir a d'autres dans le meme cas.
 
-## Fonctionnalites
+## Ce que ca fait
 
-- Redaction de courriers sur plusieurs onglets
-- Champs expediteur et destinataire
-- Export PDF et impression directe
-- Impression d'enveloppes DL (Ctrl+E)
-- Correcteur orthographique (LanguageTool, F7)
-- Themes clair et sombre
-- Zoom texte, rechercher/remplacer
+- Redaction sur plusieurs onglets (un courrier par onglet)
+- Champs expediteur et destinataire, historique des destinataires
+- Impression directe ou export PDF
+- Impression d'enveloppes DL (Ctrl+E) via PDF
+- Correcteur orthographique integre via LanguageTool (F7)
+- Themes clair et sombre, zoom texte
 - Sauvegarde au format .dactime
-- Historique des destinataires
 
-## Raccourcis clavier
+## Raccourcis
 
 | Raccourci | Action |
 |-----------|--------|
 | Ctrl+N | Nouveau courrier |
 | Ctrl+S | Enregistrer |
 | Ctrl+P | Imprimer |
-| Ctrl+E | Imprimer enveloppe DL |
+| Ctrl+E | Enveloppe DL |
 | Ctrl+F | Rechercher |
-| F1 | Raccourcis clavier |
+| F1 | Liste des raccourcis |
 | F7 | Correcteur orthographique |
 
 ## Installation
 
 Telecharger `DacTime_Setup_1.2.exe` dans les [Releases](../../releases) et lancer l'installateur.
+
+Windows peut afficher un avertissement a l'ouverture : cliquer **Informations complementaires** puis **Executer quand meme**.
 
 ## Compiler depuis les sources
 
