@@ -1,17 +1,17 @@
 # DacTime
 
-Outil personnel pour rediger et imprimer des courriers postaux sous Windows.
+Outil personnel pour rédiger et imprimer des courriers postaux sous Windows.
 
-Developpe parce que Word est trop lourd et le Bloc-notes pas assez. Peut servir a d'autres dans le meme cas.
+Développé parce que Word est trop lourd et le Bloc-notes pas assez. Peut servir à d'autres dans le même cas.
 
-## Ce que ca fait
+## Ce que ça fait
 
-- Redaction sur plusieurs onglets (un courrier par onglet)
-- Champs expediteur et destinataire, historique des destinataires
+- Rédaction sur plusieurs onglets (un courrier par onglet)
+- Champs expéditeur et destinataire, historique des destinataires
 - Impression directe ou export PDF
 - Impression d'enveloppes DL (Ctrl+E) via PDF
-- Correcteur orthographique integre via LanguageTool (F7)
-- Themes clair et sombre, zoom texte
+- Correcteur orthographique intégré via LanguageTool (F7)
+- Thèmes clair et sombre, zoom texte
 - Sauvegarde au format .dactime
 
 ## Raccourcis
@@ -28,13 +28,13 @@ Developpe parce que Word est trop lourd et le Bloc-notes pas assez. Peut servir 
 
 ## Installation
 
-Telecharger `DacTime_Setup_1.2.exe` dans les [Releases](../../releases) et lancer l'installateur.
+Télécharger `DacTime_Setup_1.2.exe` dans les [Releases](../../releases) et lancer l'installateur.
 
-Windows peut afficher un avertissement a l'ouverture : cliquer **Informations complementaires** puis **Executer quand meme**.
+Windows peut afficher un avertissement à l'ouverture : cliquer **Informations complémentaires** puis **Exécuter quand même**.
 
 ## Compiler depuis les sources
 
-Prerequis : Python 3.12, PyInstaller, NSIS
+Prérequis : Python 3.12, PyInstaller, NSIS
 
 ```
 pip install pyinstaller pillow reportlab pywin32
@@ -44,8 +44,8 @@ makensis DacTime_setup.nsi
 
 ## Licence
 
-MIT — voir [LICENSE](LICENSE)
+MIT, voir [LICENSE](LICENSE).
 
 ---
 
-Si ce projet te sert, un cafe est le bienvenu — bouton Sponsor en haut a droite.
+Si ce projet te sert, un café est le bienvenu : bouton Sponsor en haut à droite.
